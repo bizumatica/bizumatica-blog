@@ -1,0 +1,28 @@
+# --- Configuração de Staging (Teste) ---
+# Substitua SEU_USUARIO pelo seu nome no GitHub
+baseURL = "https://bizumatica.github.io/bizumatica-blog/"
+languageCode = "pt-br"
+title = "Bizumatica (Beta)"
+theme = "terminal"
+paginate = 5
+
+# Mágica para facilitar o GitHub Pages:
+# O Hugo vai gerar o site na pasta 'docs' em vez de 'public'
+publishDir = "docs"
+
+[params]
+  # Vibe Hacker
+  themeColor = "orange" # opções: orange, blue, red, green, pink
+  fullWidthTheme = false
+  centerTheme = true
+  animatedTheme = true 
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "Sobre"
+    url = "/about/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
