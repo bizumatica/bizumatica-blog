@@ -4,7 +4,9 @@ baseURL = "https://bizumatica.github.io/bizumatica-blog/"
 languageCode = "pt-br"
 title = "Bizumatica (Beta)"
 theme = "terminal"
-paginate = 5
+
+[pagination]
+  pagerSize = 5
 
 # Mágica para facilitar o GitHub Pages:
 # O Hugo vai gerar o site na pasta 'docs' em vez de 'public'
