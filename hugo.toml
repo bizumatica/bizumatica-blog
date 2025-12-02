@@ -20,7 +20,7 @@ publishDir = "docs"
   animatedTheme = true 
 
 [params.Logo]
-  logoText = "Bizumática"
+  logoText = "Bizumática-Blog"
 
 [menu]
   [[menu.main]]
