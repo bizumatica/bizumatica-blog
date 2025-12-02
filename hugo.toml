@@ -19,6 +19,9 @@ publishDir = "docs"
   centerTheme = true
   animatedTheme = true 
 
+[params.Logo]
+  logoText = "Bizumática"
+
 [menu]
   [[menu.main]]
     identifier = "about"
