@@ -5,6 +5,8 @@ languageCode = "pt-br"
 title = "Bizumatica (Beta)"
 theme = "terminal"
 
+enableEmoji = true
+
 [pagination]
   pagerSize = 5
 
