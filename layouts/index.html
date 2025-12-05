@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="post-content">
+    
+    {{ .Content }}
+
+    <br /><br />
+    <hr style="border: 1px dashed orange; opacity: 0.5;">
+    
+    <h3>:: Últimas Atualizações ::</h3>
+    
+    <ul style="list-style-type: none; padding: 0;">
+        {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+        <li style="margin-bottom: 10px;">
+            <span style="color: orange;">></span> 
+            <a href="{{ .RelPermalink }}" style="text-decoration: none; border-bottom: 1px solid #444;">{{ .Title }}</a>
+            <span style="opacity: 0.6; font-size: 0.85em; margin-left: 10px;">
+                [{{ .Date.Format "02/01/2006" }}]
+            </span>
+        </li>
+        {{ end }}
+    </ul>
+
+    <br/>
+    <a href="{{ "posts" | relURL }}">[ Ver todos os posts ]</a>
+
+</div>
+{{ end }}

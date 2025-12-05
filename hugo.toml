@@ -31,3 +31,8 @@ publishDir = "docs"
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
+  [[menu.main]]
+    identifier = "home-return"
+    name = "<< Voltar para Bizumática"
+    url = "https://bizumatica.github.io/"
+    weight = -10
