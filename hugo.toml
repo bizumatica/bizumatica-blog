@@ -5,6 +5,11 @@ languageCode = "pt-br"
 title = "Bizumatica (Beta)"
 theme = "terminal"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 enableEmoji = true
 
 [pagination]
