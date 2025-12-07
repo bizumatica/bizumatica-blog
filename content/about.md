@@ -17,4 +17,4 @@ Sou um entusiasta da tecnologia que acredita na liberdade do código e na discip
 Este blog é meu "dojo digital" onde compartilho conhecimentos sobre **Software Livre**, **FOSS** e a cultura **Linux**. Acredito que o conhecimento, assim como o código, deve ser livre e acessível.
 
 ---
-[<< Voltar para a Home](https://bizumatica.github.io/)
+[🏠 Voltar para a Home](https://bizumatica.github.io/)  |  [📰 Ir para o Blog](https://bizumatica.github.io/bizumatica-blog/)
