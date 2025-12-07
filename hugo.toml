@@ -1,34 +1,26 @@
 # --- Configuração de Staging (Teste) ---
-# Substitua SEU_USUARIO pelo seu nome no GitHub
 baseURL = "https://bizumatica.github.io/bizumatica-blog/"
 languageCode = "pt-br"
-title = "Bizumatica (Beta)"
+title = "Bizumatica-Blog"
 theme = "terminal"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
 enableEmoji = true
-
-[pagination]
-  pagerSize = 5
-
-# Mágica para facilitar o GitHub Pages:
-# O Hugo vai gerar o site na pasta 'docs' em vez de 'public'
 publishDir = "docs"
 
+# [Params] - Cores e estilo
 [params]
-  # Vibe Hacker
-  themeColor = "orange" # opções: orange, blue, red, green, pink
+  themeColor = "orange"
   fullWidthTheme = false
   centerTheme = true
-  animatedTheme = true 
+  animatedTheme = true
 
 [params.Logo]
   logoText = "Bizumática-Blog"
 
+# [Pagination]
+[pagination]
+  pagerSize = 5
+
+# [Menu] - Navegação
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -43,3 +35,9 @@ publishDir = "docs"
     name = "<< Voltar para Bizumática"
     url = "https://bizumatica.github.io/"
     weight = -10
+
+# [Markup] - Permite HTML
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
