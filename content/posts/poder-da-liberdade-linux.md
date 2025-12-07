@@ -1,6 +1,6 @@
 ---
 title: "O Poder da Liberdade: Por que Linux e Shell?"
-date: 2023-12-07
+date: 2025-12-07
 draft: false
 tags: ["Linux", "FOSS", "Shell Script", "Filosofia"]
 categories: ["Artigos"]
