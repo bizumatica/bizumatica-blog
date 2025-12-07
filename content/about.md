@@ -18,6 +18,7 @@ Este blog é meu "dojo digital" onde compartilho conhecimentos sobre **Software 
 
 ---
 
+{{< rawhtml >}}
 <div style="text-align: center; margin-top: 30px; font-size: 1.1em;">
     <a href="https://bizumatica.github.io/" style="text-decoration: none;">
         🏠 <strong>Voltar para a Home</strong>
@@ -27,3 +28,4 @@ Este blog é meu "dojo digital" onde compartilho conhecimentos sobre **Software 
         📰 <strong>Ir para o Blog</strong>
     </a>
 </div>
+{{< /rawhtml >}}
