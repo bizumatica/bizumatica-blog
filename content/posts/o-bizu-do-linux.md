@@ -1,9 +1,10 @@
 ---
 title: "O Bizu do Linux: Entenda o Sistema que Roda o Mundo"
-date: 2025-12-18T11:00:00-00:00
+date: 2025-12-18T08:00:00-03:00
 draft: false
-slug: "o-bizu-do-linux-entenda-o-sistema-que-roda-o-mundo"
+slug: "o-bizu-do-linux"
 tags: ["linux", "FOSS"]
+categories: ["tecnologia"]
 ---
 
 Se você acha que Linux é "coisa de hacker" ou apenas uma tela preta cheia de letras verdes, está na hora de atualizar seus conceitos. A verdade é que você provavelmente já usou Linux hoje — seja ao checar seu Instagram (os servidores rodam Linux), ao usar seu celular Android (o núcleo é Linux) ou ao navegar na internet.
