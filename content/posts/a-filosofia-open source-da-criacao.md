@@ -4,6 +4,7 @@ date: 2025-12-09T18:00:00-03:00
 draft: false
 slug: "a-filosofia-open source-da-criacao"
 tags: ["linux", "FOSS", "tutorial"]
+categories: ["linux"]
 ---
 
 Existe um momento sagrado quando o cursor pisca no terminal ou na primeira linha de um arquivo Markdown vazio. É o init, o processo número 1, o começo de tudo. Nesse instante, antes de rodar qualquer comando, o projeto existe de forma perfeita na sua mente.

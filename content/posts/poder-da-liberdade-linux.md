@@ -3,7 +3,7 @@ title: "O Poder da Liberdade: Por que Linux e Shell?"
 date: 2025-12-07
 draft: false
 tags: ["Linux", "FOSS", "Shell Script", "Filosofia"]
-categories: ["Artigos"]
+categories: ["linux"]
 ---
 
 Vivemos em uma era onde a conveniência muitas vezes custa a nossa privacidade e controle. Usar **Linux** e apoiar o movimento **FOSS** (Free and Open Source Software) não é apenas uma escolha técnica; é uma postura de vida.
