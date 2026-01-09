@@ -1,6 +1,6 @@
 ---
 title: "Shell Script: A Habilidade 'Invisível' que Todo Profissional Deveria Ter"
-date: 2026-01-08
+date: 2026-01-08T08:00:00-03:00
 draft: false
 tags: ["Linux", "FOSS", "Shell Script"]
 categories: ["shell-scripting"]
