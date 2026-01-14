@@ -4,7 +4,7 @@ date: 2026-01-07T08:00:00-03:00
 draft: false
 slug: "habilidade-natural-shell"
 tags: ["Linux", "FOSS", "Shell Script"]
-categories: ["shell-scripting"]
+categories: ["shell-scripting", "Performance", "Linux"]
 ---
 
 ## Por que falar de Shell Script em pleno 2026?
