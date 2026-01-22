@@ -1,5 +1,5 @@
 ---
-title: "Docker Desmistificado: O Guia para Quem Não é de TI" 
+title: "Docker para todos!" 
 date: 2026-01-21T10:00:00-03:00
 draft: false
 slug: "docker-desmistificado-o-guia-para-quem-nao-e-de-ti"
