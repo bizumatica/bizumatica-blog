@@ -115,3 +115,15 @@ Lembre-se deste artigo. Lembre-se da **receita de bolo**, do **cupcake auto-sufi
 A tecnologia por trás — *namespaces* e *cgroups* do Linux — é complexa, mas a ideia é lindamente simples: **isolar para não bagunçar, empacotar para não se perder, padronizar para funcionar sempre.**
 
 E é essa simplicidade que, no fim das contas, roda grande parte do mundo digital hoje.
+
+---
+
+## 📚 Fontes e Bibliografia
+
+**Documentação Oficial**
+*   **Docker Documentation**: [docs.docker.com](https://docs.docker.com/) - Fonte primária para conceitos, guias e referência.
+*   **Docker Hub**: [hub.docker.com](https://hub.docker.com/) - Repositório oficial de imagens de contêiner.
+
+**Guias e Explicações**
+*   **A Beginner-Friendly Introduction to Containers, VMs and Docker** (FreeCodeCamp): [Artigo no FreeCodeCamp](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b/) - Comparativo acessível entre tecnologias.
+*   **Play with Docker**: [labs.play-with-docker.com](https://labs.play-with-docker.com/) - Ambiente interativo gratuito para praticar no navegador.
