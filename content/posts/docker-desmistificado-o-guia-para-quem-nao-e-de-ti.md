@@ -1,6 +1,6 @@
 ---
 title: "O Legado do Unix: A Árvore Genealógica que Sustenta o Mundo Moderno" 
-date: 2026-01-13T10:00:00-03:00
+date: 2026-01-21T10:00:00-03:00
 draft: false
 slug: "docker-desmistificado-o-guia-para-quem-nao-e-de-ti"
 tags: ["docker", "linux", "macos", "historia", "bizu"]
