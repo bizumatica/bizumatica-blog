@@ -1,5 +1,5 @@
 ---
-title: "O Legado do Unix: A Árvore Genealógica que Sustenta o Mundo Moderno" 
+title: "Docker Desmistificado: O Guia para Quem Não é de TI" 
 date: 2026-01-21T10:00:00-03:00
 draft: false
 slug: "docker-desmistificado-o-guia-para-quem-nao-e-de-ti"
