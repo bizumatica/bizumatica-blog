@@ -1,0 +1,60 @@
+{{ define "main" }}
+<article class="post">
+  {{/* 1. Carrega o KaTeX apenas se definido no Markdown */}}
+  {{ if .Params.math }}
+    {{ partial "math.html" . }}
+  {{ end }}
+
+  {{/* 2. Título e Metadados (Padrão do Tema) */}}
+  <h1 class="post-title">
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  
+  <div class="post-meta">
+    {{- if .Date -}}
+      <time class="post-date">
+        {{- partial "post-date" . -}}
+        {{- if and $.Site.Params.showLastUpdated .Lastmod -}}
+          &nbsp;{{- partial "post-lastmod" . -}}
+        {{- end -}}
+      </time>
+    {{- end -}}
+    {{- with .Params.Author -}}
+      <span class="post-author"> :: {{ . }}</span>
+    {{- end -}}
+  </div>
+
+  {{ if .Params.tags }}
+    <span class="post-tags">
+      {{ range .Params.tags }}
+      #<a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">{{ . }}</a>&nbsp;
+      {{ end }}
+    </span>
+  {{ end }}
+
+  {{ partial "cover.html" . }}
+
+  {{/* 3. Sumário (ToC) */}}
+  {{ if (.Params.Toc | default .Site.Params.Toc) }}
+    <div class="table-of-contents">
+      <h2>{{ (.Params.TocTitle | default .Site.Params.TocTitle) | default "Sumário" }}</h2>
+      {{ .TableOfContents }}
+    </div>
+  {{ end }}
+
+  {{/* 4. Conteúdo do Post (Onde a mágica acontece) */}}
+  <div class="post-content">
+    {{- with .Content -}}
+      {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">#</a> ${3}` | safeHTML }}
+    {{- end -}}
+  </div>
+
+  {{ if eq .Type $.Site.Params.contentTypeName }}
+    {{ partial "posts_pagination.html" . }}
+  {{ end }}
+
+  {{ if not (.Params.hideComments | default false) }}
+    {{ partial "comments.html" . }}
+  {{ end }}
+</article>
+{{ end }}

@@ -12,6 +12,7 @@ publishDir = "docs"
   fullWidthTheme = false
   centerTheme = true
   animatedTheme = true
+  customCSS = ["css/extended.css"]
 
 [params.Logo]
   logoText = "Bizumática-Blog"
