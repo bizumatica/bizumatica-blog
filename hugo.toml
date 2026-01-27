@@ -1,9 +1,13 @@
 baseURL = "https://bizumatica.github.io/bizumatica-blog/"
+languageCode = "pt-br"
+title = "Bizumática Blog"
+theme = "terminal"  # (O Hugo precisa saber qual tema usar)
 publishDir = "docs"
+
+# Canonify ajuda o Hugo a montar os links completos com o subdiretório
 canonifyURLs = true
 relativeURLs = false
 
-# [Params] - Cores e estilo
 [params]
   themeColor = "orange"
   fullWidthTheme = false
@@ -14,28 +18,25 @@ relativeURLs = false
 [params.Logo]
   logoText = "Bizumática-Blog"
 
-# [Pagination]
 [pagination]
   pagerSize = 5
 
-# [Menu] - Navegação
 [menu]
   [[menu.main]]
     identifier = "about"
     name = "Sobre"
-    url = "/about/"
+    url = "about/"
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "/posts/"
+    url = "posts/"
   [[menu.main]]
     identifier = "home-return"
     name = "<< Voltar para Bizumática"
     url = "https://bizumatica.github.io/"
     weight = -10
 
-# [Markup] - Permite HTML
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true
+      unsafe = true # Necessário para os boxes de Bizu e KaTeX
