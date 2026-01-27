@@ -1,3 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shell-Scripting on Bizumatica-Blog</title><link>https://bizumatica.github.io/bizumatica-blog/categories/shell-scripting/</link><description>Recent content in Shell-Scripting on Bizumatica-Blog</description><generator>Hugo</generator><language>pt-br</language><lastBuildDate>Wed, 07 Jan 2026 08:00:00 -0300</lastBuildDate><atom:link href="https://bizumatica.github.io/bizumatica-blog/categories/shell-scripting/index.xml" rel="self" type="application/rss+xml"/><item><title>Shell Script: A Habilidade Invisivel</title><link>https://bizumatica.github.io/bizumatica-blog/posts/habilidade-natural-shell/</link><pubDate>Wed, 07 Jan 2026 08:00:00 -0300</pubDate><guid>https://bizumatica.github.io/bizumatica-blog/posts/habilidade-natural-shell/</guid><description>&lt;h2 id="por-que-falar-de-shell-script-em-pleno-2026"&gt;Por que falar de Shell Script em pleno 2026?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shell-Scripting on Bizumatica-Blog</title><link>https://bizumatica.github.io/bizumatica-blog/categories/shell-scripting/</link><description>Recent content in Shell-Scripting on Bizumatica-Blog</description><generator>Hugo</generator><language>pt-br</language><lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bizumatica.github.io/bizumatica-blog/categories/shell-scripting/index.xml" rel="self" type="application/rss+xml"/><item><title>🧪 Teste de Estética e Funcionalidades</title><link>https://bizumatica.github.io/bizumatica-blog/posts/teste-estetica/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://bizumatica.github.io/bizumatica-blog/posts/teste-estetica/</guid><description>&lt;p&gt;Este post serve para validar se o novo &lt;code&gt;extended.css&lt;/code&gt; e os shortcodes estão funcionando corretamente no ambiente do &lt;strong&gt;Bizumática&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="1-teste-de-boxes-shortcodes"&gt;1. Teste de Boxes (Shortcodes)&lt;/h2&gt;
+&lt;p&gt;Vamos testar os três níveis de destaque que configuramos:&lt;/p&gt;
+
+
+
+&lt;div class="mat-box box-bizu"&gt;
+ &lt;div class="box-header"&gt;
+ &lt;span class="box-icon"&gt;
+ 💡
+ 
+ 
+ &lt;/span&gt;
+ &lt;span class="box-title"&gt;Macete de Potência&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class="box-content"&gt;
+ &lt;p&gt;Para elevar ao quadrado números que terminam em 5:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Multiplique o primeiro algarismo pelo sucessor dele.&lt;/li&gt;
+&lt;li&gt;Escreva &lt;strong&gt;25&lt;/strong&gt; no final.
+&lt;em&gt;Exemplo: $25^2 \rightarrow 2 \times 3 = 6 \rightarrow 625$.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="mat-box box-teorema"&gt;
+ &lt;div class="box-header"&gt;
+ &lt;span class="box-icon"&gt;
+ 
+ 📐
+ 
+ &lt;/span&gt;
+ &lt;span class="box-title"&gt;Teorema Fundamental&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class="box-content"&gt;
+ A soma dos quadrados dos catetos é igual ao quadrado da hipotenusa:
+$$a^2 + b^2 = c^2$$
+ &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="mat-box box-aviso"&gt;
+ &lt;div class="box-header"&gt;
+ &lt;span class="box-icon"&gt;
+ 
+ 
+ ⚠️
+ &lt;/span&gt;
+ &lt;span class="box-title"&gt;AVISO&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class="box-content"&gt;
+ Lembre-se de sempre limpar o cache do navegador (Ctrl+F5) após o deploy para ver as novas cores turquesa e rosa!
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id="2-teste-de-matemática-katex"&gt;2. Teste de Matemática (KaTeX)&lt;/h2&gt;
+&lt;p&gt;Aqui testamos se o fundo sutil (&lt;code&gt;background: rgba(255, 255, 255, 0.05)&lt;/code&gt;) e a borda lateral turquesa estão aparecendo nas fórmulas em bloco:&lt;/p&gt;</description></item><item><title>Shell Script: A Habilidade Invisivel</title><link>https://bizumatica.github.io/bizumatica-blog/posts/habilidade-natural-shell/</link><pubDate>Wed, 07 Jan 2026 08:00:00 -0300</pubDate><guid>https://bizumatica.github.io/bizumatica-blog/posts/habilidade-natural-shell/</guid><description>&lt;h2 id="por-que-falar-de-shell-script-em-pleno-2026"&gt;Por que falar de Shell Script em pleno 2026?&lt;/h2&gt;
 &lt;p&gt;Muitas vezes, olhamos para a tela preta de um terminal e imaginamos um cenário de Matrix, restrito a hackers ou administradores de sistemas. No &lt;strong&gt;Bizumática&lt;/strong&gt;, queremos quebrar esse mito. O Shell Script não é apenas uma linguagem de programação; é uma forma de &lt;strong&gt;autonomia&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Independentemente de você ser um advogado, um designer, um acadêmico ou um entusiasta de tecnologia, aprender a &amp;ldquo;falar&amp;rdquo; com o seu sistema operacional de forma direta é como aprender a ler e escrever no mundo digital.&lt;/p&gt;</description></item></channel></rss>
