@@ -1,10 +1,7 @@
-# --- Configuração de Staging (Teste) ---
 baseURL = "https://bizumatica.github.io/bizumatica-blog/"
-languageCode = "pt-br"
-title = "Bizumatica-Blog"
-theme = "terminal"
-enableEmoji = true
 publishDir = "docs"
+canonifyURLs = true
+relativeURLs = false
 
 # [Params] - Cores e estilo
 [params]
